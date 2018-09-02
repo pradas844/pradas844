@@ -1,0 +1,386 @@
+<html>
+<head>
+ <link rel="icon" href="sun.gif" type="image/gif" sizes="16x16">
+<link rel="stylesheet" type="text/css"href="external.css">
+<title> My first html Docoment </title>
+
+<style>
+div {
+    width: 100px;
+    height: 100px;
+    background:red;
+    
+    transition-property: width, height;
+    transition-duration: 2s;
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+}
+<body {background-color: powderblue;}
+h7   {color: green;font-size:70px}
+p    {color: red;font-size:60px}
+.static{
+	position:static;
+	border:3px solid;
+	}
+.relative{
+	position:relative;
+	left:30px;
+	border:3px solid;
+	}
+.fixed{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:300px;
+	height:300px;
+	border:3px solid;
+	}
+.absolute{
+	position:absolute;
+	top:80px;
+	right:0;
+	width:400px;
+	height:100px;
+	border:3px solid;
+	}
+.sticky{
+	position:sticky;
+	top:0;
+	padding:5px;
+	border:3px solid;
+	}
+div1{
+	width:300px;
+	padding:25px;
+	border:25px solid;
+	margin:25px;
+	}
+#das{
+	filter:gryscale(100%);
+    }
+</style>
+
+</head>
+<body bgcolor="white">
+
+<center style="font-size:50px;color:black;"> CSS z-Index property</center>
+<div id="one"> div-1 </div>
+<div id="two"> div-2 </div>
+<div id="three"> div-3 </div>
+<div id="four"> div-4 </div>
+<div id="five">div-5</div>
+
+<br><br><br><br><br><br><br><hr>
+<center style="font-size:50px;color:black;">HTML Heading</center>
+<h1> i'm pradeep.this is my website. </h1> 
+<h2> i'm pradeep.this is my website. </h2> 
+<h3> i'm pradeep.this is my website. </h3> 
+<h4> i'm pradeep.this is my website. </h4> 
+<h5> i'm pradeep.this is my website. </h5> 
+<h6> i'm pradeep.this is my website. </h6> 
+<hr>
+
+<center style="font-size:50px;color:black;">TEXT Format</center>
+<p > <pre > <font size="20">
+<center> 
+<b>	Listen close to what I gotta say.	</b>
+<i>	 Cause you know there  ain’t no other way.	</i> 
+<u>	<br>Love is the message. You ready? Let’s go.	</u> 
+<em>	Yeah.. we can make it better.	</em>
+<small>		Yeah.. when we come <span style="color:blue"> together. </span>	</small>
+<mark>	Yeah.. all you got is me.	</mark>
+<strike>	Yeah.. all I got is you!	</strike>
+<hr>
+</center>
+ </font>
+ <pre> 
+ </p>
+<a href="http://www.google.com" target="_blank" name="google.com" >click here </a>
+<a href="#india" > india </a> 
+<hr>
+
+<center style="font-size:50px;color:black;"> HTML Table </center>
+<table border="1px" align="center" width="60%" cellpending="2px" cellspacing="5px">
+<tbody align="center">
+ <tr> <th> class</th> <th> name</th> <th> rollno.</th> <th> marks </th> <th> secsion </th> </tr> 
+<tr><td> msc </td> <td> <u> <b> <i> pradeep <i> </b> </u> </td> <td> 1 </td> <td> 98 </td> <td> a </td> </tr>
+<tr><td> mba </td> <td> deepak </td> <td> 2 </td> <td> 97 </td> <td> b </td> </tr>
+<tr><td> bca </td> <td> mahesh </td> <td> 3 </td> <td> 96 </td> <td> c </td> </tr>
+<tr><td> b.sc </td> <td> rahul </td> <td> 4 </td> <td> 95 </td> <td> b </td> </tr>
+<tr><td> ba </td> <td> anu </td> <td> 5 </td> <td> 94 </td> <td> a </td> </tr>
+<tr><td> b.com </td> <td> sushmita </td> <td> 6 </td> <td> 93 </td> <td> c </td> </tr>
+ </tbody> </table> 
+<hr>
+
+<center style="font-size:50px;color:black;"> Table Marge</center>
+<table border="1px" align="center" width="60%" height="250px" cellpending="2px" cellspacing="5px">
+<tbody align="center">
+<tr><td rowspan="7"> </td> <td > </td> <td> </td> <td> </td> <td rowspan="7"> </td> </tr> 
+<tr>  <td> </td> <td> </td> <td> </td>  </tr>
+<tr> <td colspan="3" > </td>  </tr>
+<tr>> <td colspan="3" > </td>  </tr>
+<tr> <td colspan="3" > </td>  </tr>
+<tr> <td> </td> <td>  </td> <td> </td>  </tr>
+<tr> <td> </td> <td>  </td> <td> </td>  </tr>
+ </tbody> </table>
+<hr>
+
+<center style="font-size:50px;color:black;">HTML List</center>
+<h1>Unordered List with Disc Bullets</h1>
+
+<ul style="list-style-type:disc">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> 
+<hr>
+<h1>Unordered List with Circle Bullets</h1>
+
+<ul style="list-style-type:circle">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+<hr>
+<h1>Unordered List with Square Bullets</h1>
+
+<ul style="list-style-type:square">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+<hr>
+<h1>Unordered List with None Bullets</h1>
+
+<ul style="list-style-type:none">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+ <hr>
+<h1>An ordered HTML list</h1>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+<hr>
+<h2>Ordered List with Numbers:</h2>
+
+<ol style-type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+<hr>
+<h2>Ordered List with Capital Letters:</h2>
+
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<hr>
+<h2>Ordered List with Small Letters:</h2>
+
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<hr>
+<h2>Ordered List with Lowercase Roman Numbers:</h2>
+
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<hr>
+<h2>Ordered List with Uppercase Roman Numbers:</h2>
+
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+<hr>
+<h2>Ordered List with Uppercase Roman Numbers:</h2>
+
+<ol type="I" start="10">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+  <hr>
+<h2>A Definition List</h2>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+<hr>
+<h2>A Nested List</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+    <ul>
+    <li>Black tea</li>
+    <li>Green tea</li>
+    </ul>
+  <li>Milk</li>
+</ul>
+<hr>  
+<center style="font-size:50px;color:black;"> image</center>
+<img src="pulpitrock.jpg" alt="Mountain View" width="100%" height="500" >
+<hr>
+
+<center style="font-size:50px;color:black;"> imagemap</center>
+<p>Click on the sun or on one of the planets to watch it closer:</p>
+
+<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.html" target="_blanck">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.html" target="_blanck">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.html" target="_blanck">
+</map
+<hr>
+<hr>
+<style>
+a:link { color: red }
+a:visited { color: green }
+a:hover {color: hotpink }
+a:active { color: blue }
+</style>
+<a href="www.google.com"> click here </a>
+<hr>
+
+<center style="font-size:50px;color:black;"> frame </center>
+<a href="frame.html" >frameset</a>
+<hr>
+<center style="font-size:50px;color:black;"> HTML Form </center>
+<form>
+  First name:<br>
+  <input type="text" name="firstname" size="20px" maxlength="10" tabindex="2" />
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" size="20px" maxlength="5" tabindex="3"><br>
+  password<br>
+  <input type="password" name="password" size="20px" maxlength="5" tabindex="1"><br>
+texbox:<br>
+<textarea name="address" rows="10" cols="10">
+</textarea><br>
+checkbox:<br>
+  <input type="checkbox" name="chk1" value="mango" checked="true" tabindex="3">mango<br>
+  <input type="checkbox" name="chk1" value="apple" maxlength="5" tabindex="1"> apple<br>
+  <input type="checkbox" name="chk1" value="banana" maxlength="5" tabindex="2"> banana<br>
+radio:<br>
+<input type="radio" name="gender" value="male" > Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other <br>
+drop-down list:<br>
+<select name="cars">
+    <option value="volvo">volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br>
+file-upload:<br>
+<input type="file" name="fileupload" accept="image/*" />
+<input type="submit" value="submit" ><br>
+<input type="reset" value="reset" ><br>
+<input type="image" value="imagebutton" src="sun.gif" ><br>
+<input type="button" value="ok" >
+<button type="button" onclick="alert('pradeep das')">Click Me!</button>
+
+</form> 
+</form>
+<hr>
+
+<center style="font-size:50px;color:black;"> CSS selectors and type</center>
+
+<h1 style="color:blue; font-size:80px;">This is a inline style sheet</h1>
+<hr>
+<h1>This is a internal style sheet</h1>
+<p>This is a internal sheet paragraph.</p>
+<hr>
+<p class="red"> This is external style sheet(Red) </p>
+<p class="thick"> This is external style sheet(Thick) </p>
+<p class="green"> This is external style sheet(Green) </p>
+<hr>
+<p id="p" >Id Selector</p>
+<hr>
+<h8> Element Selector </h8>
+<hr>
+<p class="green">Class Selector</p>
+<hr>
+<center style="font-size:50px;color:black;"> HTML Div Tag</center>
+<div id="contentinfo"><p>Welcome to my website</p></div>
+<hr>
+<center style="font-size:50px;color:black;"> HTML Position</center>
+<div class="static">this div element has position:static</div>
+<hr>
+<div class="relative">this div element has position:relative</div>
+<hr>
+<div class="fixed"><img src="filter.jpg" height="300px" width="300px"></div>
+<div class="absolute">this div element has position:absolute</div>
+<div class="sticky">this div element has position:sticky</div>
+<hr>
+<center style="font-size:50px;color:black;"> CSS Box Model</center>
+<pre>CSS box model</pre><br><br>
+<div1>Why are you here??</div1>
+<br><br><br><br>
+<hr>
+<center style="font-size:50px;color:black;"> Css Filters Effects</center>
+Grayscale
+ <img src="filter.jpg" style="filter:grayscale(100%)">
+<hr>
+Sepia
+<img src="filter.jpg" style="filter:sepia(100%)">
+<hr>
+Saturate
+<img src="filter.jpg" style="filter:saturate(30)">
+<hr>
+Hue-rotate
+<img src="filter.jpg" style="filter:hue-rotate(120deg)">
+<hr>
+Invert
+<img src="filter.jpg" style="filter:invert(100%)">
+<hr>
+opacity
+<img src="filter.jpg" style="filter:opacity(20%)">
+<hr>
+brightness
+<img src="filter.jpg" style="filter:brightness(10)">
+<hr>
+contrast
+<img src="filter.jpg" style="filter:contrast(10)">
+<hr>
+blur
+<img src="filter.jpg" style="filter:blur(10px)">
+<hr>
+drop-shadow
+<img src="filter.jpg" style="filter:drop-shadow(16px 20px 10px red)">
+<hr>
+transition-property
+<div></div>
+</body> 
+
+<frameset rows="20%,80%">
+  <frame src="sun.html" name="sun">
+	<frameset cols="50%,50%">
+	  <frame src="murcr.html" name="murcr">
+	   <frame src="venus.html" name="venus">
+	 </frameset>
+</frameset>
+</html>
